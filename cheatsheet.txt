@@ -1,0 +1,74 @@
+<h1>Night Code with Professor Morticus Byte</h1>
+<p>Greetings, mortals! I am Professor Morticus Byte, coding wizard and master of the digital arts. By the dim glow of the moon, I reveal the secrets of HTML, CSS, and the hidden spells of JavaScript.</p>
+Join My Midnight Class
+
+<h2>"Beware of Syntax Errors, My Students!"</h2>
+<p>Fear not! With me by your side, you'll learn the dark art of debugging and banish errors with a single line of code.</p>
+
+<h2>"Do Not Fear the Dark Console"</h2>
+<p>As a master of the console, I guide my students through mysterious logs, decrypting error messages and vanquishing bugs from the shadows.</p>
+
+<h2>"Embrace the Power of Code"</h2> 
+<p>Code is like magic—it requires practice, precision, and a fearless heart. Together, we shall build spells (or, ahem, websites) that stand the test of time.</p>
+
+<h2>"Beware the Infinite Loops!"</h2>
+<p>Yes, my apprentices, beware of the infinite loop. Many brave coders have wandered into its abyss, only to be lost in the endless repetition. Let me guide you out of such perils.</p>
+
+<h2>Interests:</h2>
+<p>Aside from coding in the shadows, I enjoy creating spectral websites, collecting spooky fonts, and decrypting ancient programming languages.</p>
+
+
+
+Fontawesome icons
+
+<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+<li><a href="#"><i class="fa-solid fa-ghost"></i></a></li>
+
+Colors: 
+purple #6E2594
+orange #DE6B20
+light orange rgb(255, 166, 0);
+text #ededed;
+
+
+Fonts:
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jolly+Lodger&display=swap');
+
+h1, h2, h3 {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 0 4px 8px rgb(255, 166, 0);
+}
+
+
+body font
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: 300;
+
+
+.btn-orange:hover {
+  background-color: rgb(255, 166, 0);
+  box-shadow: 0 0 20px 16px rgb(255, 166, 0);
+  transition: 0.5s;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 10px 8px rgba(255, 166, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 20px 16px rgb(255, 166, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 10px 8px rgba(255, 166, 0, 0.7);
+    }
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jolly+Lodger&display=swap');
+
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  background-color: black;
+  color: #ededed;
+}
+
+h1, h2, h3 {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  text-shadow: 0 0 16px #F77601;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+a {
+  text-decoration: none;
+  color: #ededed;
+}
+
+p {
+  line-height: 1.5;
+}
+
+i {
+  color: #ededed;
+  font-size: 36px;
+  margin: 24px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card-purple {
+  background-color: #6E2594;
+  padding: 40px;
+  margin: 20px 0;
+  text-align: center;
+  border: 1px solid #DE6B20;
+}
+
+.img-circle {
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid #DE6B20;
+}
+
+.btn-orange {
+  background-color: #DE6B20;
+  padding: 8px 16px;
+}
+
+.btn-orange:hover {
+  background-color: #de9c20;
+  box-shadow: 0 0 20px 16px rgb(255, 166, 0);
+  transition: 0.5s;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 10px 8px rgba(255, 166, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 20px 16px rgb(255, 166, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 10px 8px rgba(255, 166, 0, 0.7);
+    }
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.list-inline i:hover {
+  color: #de9c20;
+}
+
